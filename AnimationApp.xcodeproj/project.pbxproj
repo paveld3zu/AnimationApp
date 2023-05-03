@@ -14,6 +14,8 @@
 		68474E432A025E790059F493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68474E412A025E790059F493 /* Main.storyboard */; };
 		68474E452A025E7A0059F493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68474E442A025E7A0059F493 /* Assets.xcassets */; };
 		68474E482A025E7A0059F493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68474E462A025E7A0059F493 /* LaunchScreen.storyboard */; };
+		687192C22A0267FD00FEFD25 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687192C12A0267FD00FEFD25 /* DataStore.swift */; };
+		687192C42A0268A500FEFD25 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687192C32A0268A500FEFD25 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		68474E442A025E7A0059F493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68474E472A025E7A0059F493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68474E492A025E7A0059F493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687192C12A0267FD00FEFD25 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		687192C32A0268A500FEFD25 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				68474E512A025F260059F493 /* ViewControllers */,
 				68474E502A025F100059F493 /* Storyboards */,
 				68474E442A025E7A0059F493 /* Assets.xcassets */,
+				687192C12A0267FD00FEFD25 /* DataStore.swift */,
+				687192C32A0268A500FEFD25 /* Model.swift */,
 			);
 			path = AnimationApp;
 			sourceTree = "<group>";
@@ -170,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687192C42A0268A500FEFD25 /* Model.swift in Sources */,
 				68474E402A025E790059F493 /* ViewController.swift in Sources */,
+				687192C22A0267FD00FEFD25 /* DataStore.swift in Sources */,
 				68474E3C2A025E790059F493 /* AppDelegate.swift in Sources */,
 				68474E3E2A025E790059F493 /* SceneDelegate.swift in Sources */,
 			);
@@ -321,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWP724RH62;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -353,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWP724RH62;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
