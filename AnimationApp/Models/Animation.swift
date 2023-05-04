@@ -16,7 +16,7 @@ struct Animation {
     let duration: Double
     let delay: Double
     
-    var animationDescription: String {
+    var description: String {
         """
         preset: \(preset)
         curve: \(curve)
