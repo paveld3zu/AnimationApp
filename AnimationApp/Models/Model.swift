@@ -32,7 +32,7 @@ struct Animation {
             curve: DataStore.shared.curves.randomElement() ?? "",
             force: Double.random(in: 1...1.5),
             duration: Double.random(in: 1...1.5),
-            delay: 0.2
+            delay: Double.random(in: 0.1...0.5)
         )
     }
 }
